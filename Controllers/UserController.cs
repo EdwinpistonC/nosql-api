@@ -79,7 +79,26 @@ namespace CouchbaseWebAPI.Controllers
             // using the collection object insert the new airport object  
         }
 
-        
+        [HttpPut]
+        [Route("authUser")]
+        public async Task<bool> AuthUser(AuthUser authUser)
+        {
+            var collection = await _bucket.CollectionAsync("User");
+            KeyValuePair<string, object>[] parameters = new KeyValuePair<string, object>[2];
+            parameters[0] = new KeyValuePair<string, object>("$Email", authUser.Email);
+            parameters[1] = new KeyValuePair<string, object>("$Pass", authUser.Password);
+
+            var queryResult = await cluster.QueryAsync<User>(@"select name, email, surname, u.`password` 
+                                                               from `nosqldatabase`.`_default`.`User` u 
+                                                               where u.email=$Email and u.`password`=$Pass ",
+             options => options.Parameter(parameters));
+
+            var codeList = await queryResult.ToListAsync<User>();
+
+            return codeList.Count >0;
+
+        }
+
         [HttpPut]
         [Route("addRol")]
         public async Task<object> addRol([FromBody] RolDto rolDto)

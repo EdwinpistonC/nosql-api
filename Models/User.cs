@@ -19,4 +19,10 @@ namespace CouchbaseWebAPI.Models
         public string Surname { get; set; }
 
     }
+    public class AuthUser
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+
+    }
 }
