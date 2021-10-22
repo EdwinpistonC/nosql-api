@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fb56ba65-a465-41dc-985e-1e015059a584": {
+      "ProjectGuid": "fb56ba65-a465-41dc-985e-1e015059a584",
+      "DisplayName": "CouchbaseWebAPI",
+      "ColorIndex": 0
+    },
+    "35bf891e-a405-4dc3-bcd4-c1ac57e257b8": {
+      "ProjectGuid": "35bf891e-a405-4dc3-bcd4-c1ac57e257b8",
+      "DisplayName": "CouchbaseWebAPI",
+      "ColorIndex": 1
+    },
+    "4e40576f-8acb-412d-8362-2aadaf021024": {
+      "ProjectGuid": "4e40576f-8acb-412d-8362-2aadaf021024",
+      "DisplayName": "CouchbaseWebAPI",
+      "ColorIndex": 2
+    },
+    "9eda084a-2e8a-4a65-b22e-a1ab80df3d97": {
+      "ProjectGuid": "9eda084a-2e8a-4a65-b22e-a1ab80df3d97",
+      "DisplayName": "CouchbaseWebAPI",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "d0384590-da7c-42a7-b67f-231529ad1f28": {
+      "ProjectGuid": "d0384590-da7c-42a7-b67f-231529ad1f28",
+      "DisplayName": "CouchbaseWebAPI",
+      "ColorIndex": 4
+    },
+    "fea035a4-6dd9-4323-8b4e-eb73ef55cf4d": {
+      "ProjectGuid": "fea035a4-6dd9-4323-8b4e-eb73ef55cf4d",
+      "DisplayName": "CouchbaseWebAPI",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
