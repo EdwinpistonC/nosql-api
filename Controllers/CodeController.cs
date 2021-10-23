@@ -66,7 +66,7 @@ namespace CouchbaseWebAPI.Controllers
 
         }
 
-        [HttpPut]
+        [HttpPost]
         public async Task<object> put([FromBody] Code code)
         {
 

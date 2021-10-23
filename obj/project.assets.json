@@ -5547,25 +5547,26 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "App.Metrics >= 4.2.0",
       "Couchbase.Extensions.DependencyInjection >= 3.2.0",
       "CouchbaseNetClient >= 3.2.0",
       "Swashbuckle.AspNetCore >= 6.1.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Julio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Tecnologo\\nosql\\nosql-api\\CouchbaseWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\source\\repos\\nosql-api\\CouchbaseWebAPI.csproj",
       "projectName": "CouchbaseWebAPI",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Tecnologo\\nosql\\nosql-api\\CouchbaseWebAPI.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Tecnologo\\nosql\\nosql-api\\obj\\",
+      "projectPath": "C:\\Users\\Julio\\source\\repos\\nosql-api\\CouchbaseWebAPI.csproj",
+      "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julio\\source\\repos\\nosql-api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5591,6 +5592,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "App.Metrics": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
           "Couchbase.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[3.2.0, )"
@@ -5622,7 +5627,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
   }

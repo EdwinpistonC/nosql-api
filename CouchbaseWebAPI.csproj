@@ -5,9 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="App.Metrics" Version="4.2.0" />
     <PackageReference Include="Couchbase.Extensions.DependencyInjection" Version="3.2.0" />
     <PackageReference Include="CouchbaseNetClient" Version="3.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.1" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

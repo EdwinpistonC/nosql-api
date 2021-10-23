@@ -36,7 +36,7 @@ namespace CouchbaseWebAPI.Controllers
       
 
       
-        [HttpPut]
+        [HttpPost]
         public async Task<object> put([FromBody]UserDto userDto)
         {
 
@@ -79,7 +79,7 @@ namespace CouchbaseWebAPI.Controllers
             // using the collection object insert the new airport object  
         }
 
-        [HttpPut]
+        [HttpPost]
         [Route("authUser")]
         public async Task<bool> AuthUser(AuthUser authUser)
         {
@@ -165,7 +165,7 @@ namespace CouchbaseWebAPI.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpDelete]
         [Route("removeRols")]
         public async Task<object> removeRols([FromBody] RolsDto rolsDto)
         {
