@@ -35,7 +35,17 @@
       "ProjectGuid": "fea035a4-6dd9-4323-8b4e-eb73ef55cf4d",
       "DisplayName": "CouchbaseWebAPI",
       "ColorIndex": 5
+    },
+    "7c0310e3-cc6c-42c7-87b9-05e43ffeab3a": {
+      "ProjectGuid": "7c0310e3-cc6c-42c7-87b9-05e43ffeab3a",
+      "DisplayName": "CouchbaseWebAPI",
+      "ColorIndex": 6
+    },
+    "87148f28-3cd7-4f60-a00c-bf031647f9ef": {
+      "ProjectGuid": "87148f28-3cd7-4f60-a00c-bf031647f9ef",
+      "DisplayName": "CouchbaseWebAPI",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 8
 }
