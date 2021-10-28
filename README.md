@@ -11,9 +11,9 @@ Integrantes:
  
 Se hace entrega de:
 <ul>
-<li>**/Documentacion/Grupo Membase - Entrega Laboratorio 2.pdf**: Instructivo y detalle de las pruebas.</li>
-<li>**/Pruebas/JMeter TestPlan - Couchbase.jmx**: archivo de configuración de JMeter.</li>
-<li>**/Ejecutable**: contiene ejecutable del middleware. Requiere Couchbase corriendo en Docker previamente.</li>
-<li>**/Pruebas/Couchbase.postman_collection.json**: archivo de prueba de los endpoints.</li>
-<li>**/Pruebas/Obligatorio2021.postman_collection.json**: archivo de pruebas para Jenkins.</li>
+<li><b>/Documentacion/Grupo Membase - Entrega Laboratorio 2.pdf</b>: Instructivo y detalle de las pruebas.</li>
+<li><b>/Pruebas/JMeter TestPlan - Couchbase.jmx</b>: archivo de configuración de JMeter.</li>
+<li><b>/Ejecutable</b>: contiene ejecutable del middleware. Requiere Couchbase corriendo en Docker previamente.</li>
+<li><b>/Pruebas/Couchbase.postman_collection.json*</b>*: archivo de prueba de los endpoints.</li>
+<li><b>/Pruebas/Obligatorio2021.postman_collection.json</b>: archivo de pruebas para Jenkins.</li>
 </ul>
